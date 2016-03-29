@@ -237,3 +237,26 @@
     font-weight: normal;
   }
 }
+
+.info--container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 99px;
+  width: 980px;
+  margin: 0 auto;
+  border-top: 1px solid #ddd;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+
+  a {
+    color: #4078c0;
+    margin: 5px;
+  }
+
+  i {
+    font-size: 28px;
+    color: #bbb;
+  }
+}

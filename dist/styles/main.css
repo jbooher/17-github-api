@@ -172,6 +172,24 @@ a {
     font-size: 13px;
     font-weight: normal; }
 
+.info--container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 99px;
+  width: 980px;
+  margin: 0 auto;
+  border-top: 1px solid #ddd;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center; }
+  .info--container a {
+    color: #4078c0;
+    margin: 5px; }
+  .info--container i {
+    font-size: 28px;
+    color: #bbb; }
+
 body {
   margin: 0;
   color: #888; }
@@ -345,6 +363,24 @@ a {
     margin-top: 8px;
     font-size: 13px;
     font-weight: normal; }
+
+.info--container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 99px;
+  width: 980px;
+  margin: 0 auto;
+  border-top: 1px solid #ddd;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center; }
+  .info--container a {
+    color: #4078c0;
+    margin: 5px; }
+  .info--container i {
+    font-size: 28px;
+    color: #bbb; }
 
 body {
   font-family: Helvetica; }
