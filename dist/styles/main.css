@@ -115,6 +115,40 @@ a {
   .profile--repos {
     width: 750px;
     padding: 0 10px; }
+    .profile--repos-options {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 0;
+      border-bottom: 1px solid #ddd;
+      border-top: 1px solid #ddd;
+      margin-top: 20px; }
+      .profile--repos-options a {
+        font-size: 14px; }
+      .profile--repos-options a:first-of-type {
+        color: #000;
+        font-weight: bold; }
+    .profile--repos-search {
+      width: 242px;
+      height: 18px;
+      padding: 7px 8px;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+      font-size: 13px;
+      margin-right: 0; }
+    .profile--repos-submit, .profile--repos-new {
+      width: 68.375px;
+      height: 34px;
+      font-weight: bold;
+      padding: 6px 12px;
+      background-color: #ddd;
+      box-shadow: inset 0 0 3px 0px #ddd;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      margin-left: -2px; }
+    .profile--repos-new {
+      color: #fff;
+      background-color: #569e3d; }
   .profile--repo {
     display: flex;
     justify-content: space-between;
@@ -255,6 +289,40 @@ a {
   .profile--repos {
     width: 750px;
     padding: 0 10px; }
+    .profile--repos-options {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 0;
+      border-bottom: 1px solid #ddd;
+      border-top: 1px solid #ddd;
+      margin-top: 20px; }
+      .profile--repos-options a {
+        font-size: 14px; }
+      .profile--repos-options a:first-of-type {
+        color: #000;
+        font-weight: bold; }
+    .profile--repos-search {
+      width: 242px;
+      height: 18px;
+      padding: 7px 8px;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+      font-size: 13px;
+      margin-right: 0; }
+    .profile--repos-submit, .profile--repos-new {
+      width: 68.375px;
+      height: 34px;
+      font-weight: bold;
+      padding: 6px 12px;
+      background-color: #ddd;
+      box-shadow: inset 0 0 3px 0px #ddd;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      margin-left: -2px; }
+    .profile--repos-new {
+      color: #fff;
+      background-color: #569e3d; }
   .profile--repo {
     display: flex;
     justify-content: space-between;
