@@ -11,6 +11,49 @@ a {
   height: 28px;
   padding: 10px 0;
   border-bottom: 1px solid #ddd; }
+  .heading--container {
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+    margin: 0 auto; }
+  .heading--column1 {
+    display: flex;
+    justify-content: center; }
+    .heading--column1 a {
+      color: #333;
+      margin: 5px;
+      font-size: 13px;
+      font-weight: bold; }
+      .heading--column1 a:hover {
+        color: #4078c0; }
+    .heading--column1 input {
+      font-size: 13px;
+      display: table-cell;
+      height: 26px;
+      width: 355px;
+      padding: 0 7px 0 8px;
+      border-radius: 3px;
+      border: 1px solid #ddd;
+      margin: 0 14px 0 8px; }
+  .heading .fa-github {
+    font-size: 28px;
+    color: #333;
+    height: 28px;
+    width: 28px; }
+  .heading--column2 {
+    display: flex;
+    align-items: center; }
+    .heading--column2 i {
+      height: 16px;
+      width: 16px;
+      margin: 0;
+      color: #333; }
+  .heading--profile {
+    height: 20px;
+    width: 20px;
+    border-radius: 3px;
+    margin: 5px;
+    margin-right: 0; }
 
 .profile {
   padding-top: 20px;
@@ -72,8 +115,28 @@ a {
   .profile--repos {
     width: 750px;
     padding: 0 10px; }
-  .profile--repo-name a {
-    color: #4078c0; }
+  .profile--repo {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    border-bottom: 1px solid #ddd; }
+    .profile--repo-name {
+      margin: 0;
+      line-height: 1.2; }
+      .profile--repo-name a {
+        color: #4078c0;
+        font-size: 20px; }
+        .profile--repo-name a:hover {
+          text-decoration: underline; }
+    .profile--repo p {
+      display: inline-block;
+      font-size: 13px;
+      margin-left: 8px; }
+  .profile h3 {
+    margin: 0;
+    margin-top: 8px;
+    font-size: 13px;
+    font-weight: normal; }
 
 body {
   margin: 0;
@@ -88,6 +151,49 @@ a {
   height: 28px;
   padding: 10px 0;
   border-bottom: 1px solid #ddd; }
+  .heading--container {
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+    margin: 0 auto; }
+  .heading--column1 {
+    display: flex;
+    justify-content: center; }
+    .heading--column1 a {
+      color: #333;
+      margin: 5px;
+      font-size: 13px;
+      font-weight: bold; }
+      .heading--column1 a:hover {
+        color: #4078c0; }
+    .heading--column1 input {
+      font-size: 13px;
+      display: table-cell;
+      height: 26px;
+      width: 355px;
+      padding: 0 7px 0 8px;
+      border-radius: 3px;
+      border: 1px solid #ddd;
+      margin: 0 14px 0 8px; }
+  .heading .fa-github {
+    font-size: 28px;
+    color: #333;
+    height: 28px;
+    width: 28px; }
+  .heading--column2 {
+    display: flex;
+    align-items: center; }
+    .heading--column2 i {
+      height: 16px;
+      width: 16px;
+      margin: 0;
+      color: #333; }
+  .heading--profile {
+    height: 20px;
+    width: 20px;
+    border-radius: 3px;
+    margin: 5px;
+    margin-right: 0; }
 
 .profile {
   padding-top: 20px;
@@ -149,8 +255,28 @@ a {
   .profile--repos {
     width: 750px;
     padding: 0 10px; }
-  .profile--repo-name a {
-    color: #4078c0; }
+  .profile--repo {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    border-bottom: 1px solid #ddd; }
+    .profile--repo-name {
+      margin: 0;
+      line-height: 1.2; }
+      .profile--repo-name a {
+        color: #4078c0;
+        font-size: 20px; }
+        .profile--repo-name a:hover {
+          text-decoration: underline; }
+    .profile--repo p {
+      display: inline-block;
+      font-size: 13px;
+      margin-left: 8px; }
+  .profile h3 {
+    margin: 0;
+    margin-top: 8px;
+    font-size: 13px;
+    font-weight: normal; }
 
 body {
   font-family: Helvetica; }

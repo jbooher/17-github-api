@@ -7,6 +7,9 @@ class User {
   }
 
   render() {
+    let profile = document.querySelector(".heading--profile");
+    profile.src = this.avatar;
+
     let div = document.querySelector(".profile--media");
 
     let avatar = document.createElement("img");
