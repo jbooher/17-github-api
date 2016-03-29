@@ -1,12 +1,156 @@
-.profile--avatar {
-  height: 230px;
-  width: 230px;
-  border-radius: 10px; }
+body {
+  margin: 0;
+  color: #888; }
 
-.profile--avatar {
-  height: 230px;
-  width: 230px;
-  border-radius: 10px; }
+a {
+  text-decoration: none; }
+
+.heading {
+  margin: 0;
+  background-color: #F5F5F5;
+  height: 28px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd; }
+
+.profile {
+  padding-top: 20px;
+  display: flex;
+  width: 980px;
+  margin: 0 auto; }
+  .profile--info {
+    padding: 0 10px;
+    width: 25%; }
+  .profile--media {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px; }
+  .profile--avatar {
+    height: 230px;
+    width: 230px;
+    border-radius: 6px; }
+  .profile--name {
+    font-size: 26px;
+    color: #333;
+    margin: 0;
+    line-height: 30px;
+    padding-top: 10px; }
+  .profile--username {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: normal;
+    margin: 0; }
+  .profile--location {
+    font-size: 14px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    margin: 0; }
+    .profile--location p {
+      margin: 10px 0; }
+    .profile--location i {
+      color: #888;
+      font-size: 16px;
+      padding-right: 5px;
+      margin: 0; }
+  .profile--social {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 1px solid #ddd; }
+    .profile--social p:first-child {
+      font-size: 28px;
+      color: #4078c0;
+      margin: 0;
+      padding-top: 10px;
+      font-weight: bold; }
+    .profile--social .label {
+      font-size: 11px;
+      margin: 0; }
+  .profile .profile--organizations h2 {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5; }
+  .profile--repos {
+    width: 750px;
+    padding: 0 10px; }
+  .profile--repo-name a {
+    color: #4078c0; }
+
+body {
+  margin: 0;
+  color: #888; }
+
+a {
+  text-decoration: none; }
+
+.heading {
+  margin: 0;
+  background-color: #F5F5F5;
+  height: 28px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd; }
+
+.profile {
+  padding-top: 20px;
+  display: flex;
+  width: 980px;
+  margin: 0 auto; }
+  .profile--info {
+    padding: 0 10px;
+    width: 25%; }
+  .profile--media {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px; }
+  .profile--avatar {
+    height: 230px;
+    width: 230px;
+    border-radius: 6px; }
+  .profile--name {
+    font-size: 26px;
+    color: #333;
+    margin: 0;
+    line-height: 30px;
+    padding-top: 10px; }
+  .profile--username {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: normal;
+    margin: 0; }
+  .profile--location {
+    font-size: 14px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    margin: 0; }
+    .profile--location p {
+      margin: 10px 0; }
+    .profile--location i {
+      color: #888;
+      font-size: 16px;
+      padding-right: 5px;
+      margin: 0; }
+  .profile--social {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 1px solid #ddd; }
+    .profile--social p:first-child {
+      font-size: 28px;
+      color: #4078c0;
+      margin: 0;
+      padding-top: 10px;
+      font-weight: bold; }
+    .profile--social .label {
+      font-size: 11px;
+      margin: 0; }
+  .profile .profile--organizations h2 {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5; }
+  .profile--repos {
+    width: 750px;
+    padding: 0 10px; }
+  .profile--repo-name a {
+    color: #4078c0; }
 
 body {
   font-family: Helvetica; }

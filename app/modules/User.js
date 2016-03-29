@@ -27,15 +27,14 @@ class User {
     let socialDiv = document.querySelector(".profile--location");
 
     let location = document.createElement("p");
-    location.innerHTML = this.location;
+    location.innerHTML = `<i class="fa fa-map-marker"></i> ${this.location}`;
     socialDiv.appendChild(location);
 
     let joined = document.createElement("p");
     let dateJoined = this.joined.split("T");
     dateJoined = dateJoined[0];
     dateJoined = new Date(dateJoined).toDateString();
-    console.log(dateJoined);
-    joined.innerHTML = `Joined on ${dateJoined}`;
+    joined.innerHTML = `<i class="fa fa-clock-o"></i> Joined on ${dateJoined}`;
     socialDiv.appendChild(joined);
 
     let followers = document.querySelector(".profile--followers");
@@ -64,7 +63,6 @@ class User {
     fetch(profileUrl).then((response) => {
       return response.json();
     }).then((response) => {
-      console.log(response);
       this.avatar = response.avatar_url;
       this.name = response.name;
       this.location = response.location;
@@ -80,8 +78,7 @@ class User {
       return response.json();
     }).then((response) => {
       response.forEach((index) => {
-        const repo = new Repo(index.name, index.url, index.updated_at, index.stargazers_count, index.forks);
-        console.log(repo);
+        const repo = new Repo(index.name, index.clone_url, index.updated_at, index.stargazers_count, index.forks);
       })
     });
   }

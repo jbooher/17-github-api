@@ -1,7 +1,103 @@
+.heading {
+  margin: 0;
+  background-color: #F5F5F5;
+  height: 28px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
 .profile {
+  padding-top: 20px;
+  display: flex;
+  width: 980px;
+  margin: 0 auto;
+
+  &--info {
+    padding: 0 10px;
+    width: 25%;
+  }
+
+  &--media {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+  }
+
   &--avatar {
     height: 230px;
     width: 230px;
-    border-radius: 10px;
+    border-radius: 6px;
+  }
+
+  &--name {
+    font-size: 26px;
+    color: #333;
+    margin: 0;
+    line-height: 30px;
+    padding-top: 10px;
+  }
+
+  &--username {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: normal;
+    margin: 0;
+  }
+
+  &--location {
+    font-size: 14px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    margin: 0;
+
+    p {
+      margin: 10px 0;
+    }
+
+    i {
+      color: #888;
+      font-size: 16px;
+      padding-right: 5px;
+      margin: 0;
+    }
+  }
+
+  &--social {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+
+    p:first-child {
+      font-size: 28px;
+      color: #4078c0;
+      margin: 0;
+      padding-top: 10px;
+      font-weight: bold;
+    }
+
+    .label {
+      font-size: 11px;
+      margin: 0;
+    }
+  }
+
+  .profile--organizations {
+    h2 {
+      font-size: 16px;
+      color: #333;
+      line-height: 1.5;
+    }
+  }
+
+  &--repos {
+    width: 750px;
+    padding: 0 10px;
+  }
+
+  &--repo {
+    &-name a{
+      color: #4078c0;
+    }
   }
 }
