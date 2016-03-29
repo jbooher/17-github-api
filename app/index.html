@@ -2,10 +2,76 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Github Profile - Assignment 17</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/styles/main.css">
   </head>
   <body>
+    <div class="container">
+      <header class="heading">
+        <div class="heading--container">
+          <div class="heading--column1">
+            <i class="fa fa-github"></i>
+            <input type="text" placeholder="Search GitHub">
+            <a href="#">Pull Request</a>
+            <a href="#">Issues</a>
+            <a href="#">Gist</a>
+          </div>
+
+          <div class="heading--column2">
+            <i class="fa fa-plus"></i>
+            <i class="fa fa-angle-down"></i>
+            <img src="#" alt="" class="heading--profile">
+            <i class="fa fa-angle-down"></i>
+          </div>
+        </div>
+      </header>
+
+      <main class="profile">
+        <div class="profile--info">
+          <div class="profile--media"></div>
+          <div class="profile--location"></div>
+          <div class="profile--social">
+
+            <div class="profile--followers">
+              <p class="label">Followers</p>
+            </div>
+
+            <div class="profile--starred">
+              <p class="label">Starred</p>
+            </div>
+
+            <div class="profile--following">
+              <p class="label">Following</p>
+            </div>
+
+          </div>
+          <div class="profile--organizations">
+            <h2>Organizations</h2>
+          </div>
+        </div>
+        <div class="profile--repos">
+          <div class="profile--repos-options">
+            <input type="text" placeholder="Find a repository..." class="profile--repos-search">
+            <input type="submit" value="SUBMIT" class="profile--repos-submit">
+            <a href="#">All</a>
+            <a href="#">Public</a>
+            <a href="#">Private</a>
+            <a href="#">Sources</a>
+            <a href="#">Forks</a>
+            <a href="#">Mirror</a>
+            <input type="submit" value="NEW" class="profile--repos-new">
+          </div>
+
+        </div>
+      </main>
+
+      <footer class="info">
+
+
+      </footer>
+
+    </div>
     <script src="/js/app.js" charset="utf-8"></script>
   </body>
 </html>
